@@ -1,5 +1,6 @@
 'use strict';
 /* global Game */
+import '../styles/main.scss';
 
 const game = new Game();
 
