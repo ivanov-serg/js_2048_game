@@ -221,10 +221,12 @@ class Game {
   }
 }
 
+// для тестів
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = Game;
 }
 
+// для браузера
 if (typeof window !== 'undefined') {
   window.Game = Game;
 }
