@@ -220,13 +220,4 @@ class Game {
     this.status = 'lose';
   }
 }
-
-// для тестів
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = Game;
-}
-
-// для браузера
-if (typeof window !== 'undefined') {
-  window.Game = Game;
-}
+export default Game;
